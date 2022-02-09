@@ -1,0 +1,58 @@
+.carousel {
+  margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 32rem;
+  background-color: #777;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
+:root {
+  --primary: #ffd4dc;
+}
+
+.main {
+  padding: 20px;
+}
+.video-container {
+  padding: 15px;
+  align-items: center;
+}
+
+#product {
+  background-color: var(--primary);
+}
+#f-small {
+  font-size: 12px;
+}
+h5 {
+  font-size: 16px;
+}
+#s-flower {
+  display: none;
+}
+.bg-pink {
+  background-color: var(--primary);
+}
+#review {
+  padding: 150px 20px;
+}
+#review-c {
+  margin: 40px;
+}
+.card-review {
+  background-color: var(--primary);
+  border-radius: 10px;
+}
